@@ -7,7 +7,7 @@
 * **
 **Histórico de Versões**    
 
-- 0.0.1 : **Atualização do SDK**  - 07/02/2017
+- 0.0.1 : **Atualização do SDK**  - 16/02/2017
 
 * **
 
