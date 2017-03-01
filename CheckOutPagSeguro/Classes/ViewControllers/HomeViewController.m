@@ -40,23 +40,23 @@
                                       @{
                                           @"image": @"note_prata",
                                           @"description": @"Intel® Core™ i7 Quad Core 14.0\" FullHD+ 16:9Ratio 2.2GHZ - 8GB - 128GB SATA III SSD",
-                                          @"value": @"1.0",
+                                          @"value": @"3100.0",
                                           @"name": @"Notebook Prata"
                                           },
                                       @{
                                           @"image": @"note_rosa",
                                           @"description": @"Intel® Core™ i7 Quad Core 14.0\" FullHD+ 16:9Ratio 2.2GHZ - 16GB - 256GB SATA III SSD",
-                                          @"value": @"3.20",
+                                          @"value": @"3200.0",
                                           @"name": @"Notebook Rosa"
                                           }, @{
                                           @"image": @"note_preto",
                                           @"description": @"Intel® Core™ i7 Quad Core 14.0\" FullHD+ 16:9Ratio 2.2GHZ - 32GB - 512GB SATA III SSD",
-                                          @"value": @"4.10",
+                                          @"value": @"4100.0",
                                           @"name": @"Notebook Preto"
                                           }, @{
                                           @"image": @"note_prata",
                                           @"description": @"Intel® Core™ i7 Quad Core 14.0\" FullHD+ 16:9Ratio 2.8GHZ - 16GB - 1024GB SATA III SSD",
-                                          @"value": @"5.80",
+                                          @"value": @"5800.0",
                                           @"name": @"Notebook Prata"
                                           }
                                       ]
