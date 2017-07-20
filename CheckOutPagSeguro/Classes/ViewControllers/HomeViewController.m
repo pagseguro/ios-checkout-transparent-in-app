@@ -40,7 +40,7 @@
                                       @{
                                           @"image": @"note_prata",
                                           @"description": @"Intel® Core™ i7 Quad Core 14.0\" FullHD+ 16:9Ratio 2.2GHZ - 8GB - 128GB SATA III SSD",
-                                          @"value": @"3100.0",
+                                          @"value": @"3.0",
                                           @"name": @"Notebook Prata"
                                           },
                                       @{

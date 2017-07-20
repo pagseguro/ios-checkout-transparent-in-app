@@ -11,6 +11,13 @@
 typedef void(^ApprovalResultBlock)(BOOL approved, NSDictionary * success);
 typedef void(^RefusedResultBlock)(NSError *error);
 
+@protocol InstallmentsDelegate <NSObject>
+
+-(void)installmentsInCard:(NSDictionary *)installments;
+
+@end
+
+
 @interface CheckoutTransparent : NSObject
 
 -(void)psWalletDidFinishPayment;
@@ -20,9 +27,17 @@ typedef void(^RefusedResultBlock)(NSError *error);
                            expYear:(NSString *)expYear
                                cvv:(NSString *)cvv
                      amountPayment:(NSString *)amountPayment
+              numberOfInstallments:(NSString *)numberOfInstallments
                 descriptionPayment:(NSString *)descriptionPayment
                            success:(ApprovalResultBlock)success
                            failure:(RefusedResultBlock)failure;
+
+-(void)installmentsAmount:(NSString *)amount cardNumber:(NSString *)cardNumber;
+
+@property id <InstallmentsDelegate> delegateInstallments;
+
+@end
+
 
 
 /*
@@ -50,7 +65,3 @@ typedef void(^RefusedResultBlock)(NSError *error);
  
  9005 - TIME_OUT_CHECK_TRANSACTION_VALIDATOR (Timeout verificação status da transação validadora);
  */
-
-
-
-@end

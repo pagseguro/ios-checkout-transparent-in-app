@@ -133,6 +133,7 @@ alpha:1.0]
                                                                        expYear:year
                                                                            cvv:self.CVV
                                                                  amountPayment:[MiscUtils formatValueDecimal:self.lblValueAll.text]
+                                                          numberOfInstallments:@"1"
                                                             descriptionPayment:@"pagamento de roupa"
                                                                        success:^(BOOL approved, NSDictionary *success){
                                                                            
