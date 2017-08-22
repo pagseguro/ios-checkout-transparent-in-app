@@ -26,30 +26,11 @@ O UOL não oferece garantias de qualquer tipo (expressas, implícitas ou estatut
 
 * **
 
-**Visão Geral**
+**Descontinuada**
 
-A biblioteca Checkout Transparente tem como foco auxiliar desenvolvedores que desejam prover em seus aplicativos toda a praticidade e segurança fornecida pelo PagSeguro no segmento de pagamentos móveis através de smartphones e tablets. Para ajudar a entender como a biblioteca pode ser utilizada, apresentamos o seguinte cenário:
+Esta SDK não sofrerá mais atualizações e, em breve, será descontinuada.
 
-• Cenário Exemplo: Solução de pagamentos com Checkout Transparente. A empresa X desenvolve um aplicativo para seus clientes permitindo-os efetuar pagamento de serviços prestados ou itens (produtos) vendidos. Neste cenário o aplicativo da empresa X faz uso da biblioteca PagSeguro "Checkout Transparente" autorizando a Library com a sua conta PagSeguro (E-mail vendedor e Token referente da conta). O aplicativo coleta os dados do cartão de crédito do cliente informando-o para a biblioteca PagSeguro "Checkout Transparente" o valor, descrição do pagamento e os dados do cartão para realizar pagamentos solicitado pelos usuários do aplicativo. A empresa X receberá os pagamentos em sua conta PagSeguro configurada como vendedor na Lib Checkout Transparente.
-
-
-* **
-
-
-**Para utilizar o Checkout Transparente**
-
-O Checkout In App Transparente está operando em piloto. A participação de novos clientes nesta fase está temporariamente suspensa por conta de ajustes que estão sendo realizados na solução.
-
-Qualquer dúvida, entre em contato através do e-mail checkoutinapp@pagseguro.com.br.
-
-
-
-* **
-**Instalação**
-
-
-[Saiba como integrar seu aplicativo iOS utilizando o Checkout Transparente](https://dev.pagseguro.uol.com.br/documentacao/aplicativo-pagseguro/checkout-in-app/checkout-in-app-transparente-ios)
-
+Mantenha-se atualizado com os meios de pagamento do PagSeguro no seu aplicativo [Android](https://github.com/pagseguro/pagseguro-android-sdk-checkout-in-app) e [iOS](https://github.com/pagseguro/pagseguro-ios-sdk-checkout-in-app)
 
 * **
 
